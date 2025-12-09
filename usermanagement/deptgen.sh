@@ -3,6 +3,7 @@
 # Author: Jordan Hall
 # Date: 12/07/2025
 # Description: This script reads a user list file and creates department groups if they don't exist.
+# Usage: "./deptgen.sh USERFILE"
 
 # Check for root privileges
 if [ $UID -ne 0 ]
