@@ -30,6 +30,7 @@ Each script includes usage instructions in its header comments. For help with an
 
 Contributions are welcome! Whether you're fixing bugs, improving existing scripts, or adding new ones:
 
+- Add your name as an editor underneath the author section of the comment ("# Editors: <name>")
 - Clear, well-documented code is appreciated
 - Explain your approach and reasoning in pull requests
 - Include usage examples when adding new scripts
