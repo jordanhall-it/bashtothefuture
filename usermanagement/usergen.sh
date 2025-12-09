@@ -4,6 +4,7 @@
 # Date: 12/08/2025
 # Description: This script when run with superuser (root) privileges will create a user using the first argument as the username, a department group using the second, and the remaining arguments as the comment. A one-time password will be automatically generated for the account, and the credentials will be displayed along with the host. This script also conforms to Linux program standard conventions.
 # Usage: "Usage: ${0} 'USERNAME' [DEPARTMENT] '[COMMENT]'"
+
 # Enforce execution with superuser (root) privileges
 if [[ "${UID}" != 0 ]]
 then
