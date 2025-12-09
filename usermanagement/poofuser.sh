@@ -3,7 +3,7 @@
 # Author: Jordan Hall
 # Date: 12/07/2025
 # Description: This script will provide the options to delete, disable, and optionally archive the home directory of an account.
-# Usage: "${0} [-dra] USER [USERNAME]..."
+# Usage: "./poofuser.sh [-dra] USER [USERNAME]..."
 
 ARCHIVE_DIR='/archive'
 
