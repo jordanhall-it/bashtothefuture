@@ -2,6 +2,7 @@
 # Author: Jordan Hall
 # Date: 12/07/2025
 # Description: This script will automatically detect department shares on the nfs server, create mount points, and add them to the /etc/fstab for persistent mount.
+# Usage: ./nfsclient.sh
 
 NFS_SERVER="10.0.0.223"
 MOUNT_BASE="/mnt"
