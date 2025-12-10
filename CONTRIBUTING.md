@@ -6,8 +6,11 @@ Thanks for your interest in contributing! If you are a collaborator with direct 
 
 1. **Never commit directly to `main`**  
    `main` is protected and should only receive merged pull requests.
-   * Clone the repo first using by clicking code "HTTPS"" or "SSH"
-
+* Clone the repo first using by clicking "Code" and selecting the option for "HTTPS"" or "SSH" and then copy the link provided (SSH is preferred)
+   ![alt text](https://raw.githubusercontent.com/jordanhall-it/bashtothefuture/refs/heads/Justin_Branch/photos/bashtothefuture_code_button.png)
+* Next, run the following commands:
+   ```bash
+       # git clone git@github.com:<username>/bashtothefuture.git
 2. **Create a Branch for Pull Request** for every change or addition to repo
    ```bash
    git checkout -b <insertbranchname>
@@ -19,19 +22,22 @@ Thanks for your interest in contributing! If you are a collaborator with direct 
         # e.g. git push origin jlewis/contributing_file
 3. **Keep branches short-lived**
     
-    Aim to open a Pull Request (PR) within a few days.
+    It is best practice to open a Pull Request (PR) within a few days after making changes.
 4. **Open a Pull Request** (even if you're the maintainer)
 
-    * All changes go through PRs — no exceptions.
-    * Use the PR template if one exists.
-    * Assign at least one reviewer (or request review from the team).
-    * Mark as Draft if it's not ready for review yet.
+* All changes go through PRs — no exceptions.
+* Use the PR template if one exists.
+* Assign at least one reviewer (or request review from the team).
+* Mark as Draft if it's not ready for review yet.
 5. **Testing**
-    * Add or update tests when relevant.
-    * Run the full test suite locally before requesting review:
+* Add or update tests when relevant.
+* Run the full test suite locally before requesting review:
     ```Bash
     npm test        # or yarn test, make test, etc.
 6. **Code style & linting**
-    * Run the linter/formatter before pushing:Bashnpm run lint
+* Run the linter/formatter before pushing:Bashnpm run lint
     ```bash
     npm run format   # or prettier --write .
+7. **Merging**
+* We use "Squash and merge" (keeps history clean).
+* Delete the branch after merging (GitHub can do it automatically).
