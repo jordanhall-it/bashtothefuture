@@ -10,7 +10,7 @@ Thanks for your interest in contributing! If you are a collaborator with direct 
    ![alt text](https://raw.githubusercontent.com/jordanhall-it/bashtothefuture/refs/heads/Justin_Branch/photos/bashtothefuture_code_button.png)
 * Next, run the following commands:
    ```bash
-       # git clone git@github.com:<username>/bashtothefuture.git
+       # git clone git@github.com:jordanhall-it/bashtothefuture.git
 2. **Create a Branch for Pull Request** for every change or addition to repo
    ```bash
    git checkout -b <insertbranchname>
